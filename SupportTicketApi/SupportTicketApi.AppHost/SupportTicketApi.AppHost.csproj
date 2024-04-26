@@ -6,11 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>2a943118-9455-4ffe-93b6-6c50cea2e106</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting" Version="8.0.0-preview.5.24128.7" />
-    <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-preview.5.24128.7" />
+	<PackageReference Include="Aspire.Hosting" Version="8.0.0-preview.6.24214.1" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0-preview.6.24214.1" />
+	  
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="8.0.0-preview.6.24214.1" />
+    <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-preview.6.24214.1" />
   </ItemGroup>
 
   <ItemGroup>
