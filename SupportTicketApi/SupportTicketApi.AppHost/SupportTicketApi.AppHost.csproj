@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SupportTicketApi\SupportTicketApi.ApiModel.csproj" />
+    <ProjectReference Include="..\SupportTicketApi.ApiModel\SupportTicketApi.ApiModel.csproj" />
   </ItemGroup>
 
 </Project>
