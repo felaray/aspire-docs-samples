@@ -6,7 +6,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportTicketApi.AppHost", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportTicketApi.ServiceDefaults", "SupportTicketApi.ServiceDefaults\SupportTicketApi.ServiceDefaults.csproj", "{2053FE88-6C53-4DCE-8097-BADA58C97A95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportTicketApi.ApiModel", "SupportTicketApi.ApiModel\SupportTicketApi.ApiModel.csproj", "{CD887ABA-C3A9-40D7-9B4B-E5596708D2A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportTicketApi.Api", "SupportTicketApi.Api\SupportTicketApi.Api.csproj", "{CD887ABA-C3A9-40D7-9B4B-E5596708D2A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportTicketApi.Data", "SupportTicketApi.Data\SupportTicketApi.Data.csproj", "{B13AA39F-37AB-41C7-9C67-8828EE4D5C55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{CD887ABA-C3A9-40D7-9B4B-E5596708D2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD887ABA-C3A9-40D7-9B4B-E5596708D2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD887ABA-C3A9-40D7-9B4B-E5596708D2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13AA39F-37AB-41C7-9C67-8828EE4D5C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13AA39F-37AB-41C7-9C67-8828EE4D5C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13AA39F-37AB-41C7-9C67-8828EE4D5C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13AA39F-37AB-41C7-9C67-8828EE4D5C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

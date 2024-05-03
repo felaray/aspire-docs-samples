@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SupportTicketApi.Models
+namespace SupportTicketApi.Data.Models
 {
     public sealed class SupportTicket
     {
