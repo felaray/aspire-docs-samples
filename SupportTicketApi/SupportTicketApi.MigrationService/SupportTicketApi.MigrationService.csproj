@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-SupportTicketApi.MigrationService-fc0c1429-41b2-4ca2-8669-4f1cb2fd485d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SupportTicketApi.Api\SupportTicketApi.Api.csproj" />
+    <ProjectReference Include="..\SupportTicketApi.Data\SupportTicketApi.Data.csproj" />
+    <ProjectReference Include="..\SupportTicketApi.ServiceDefaults\SupportTicketApi.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>
